@@ -1,7 +1,9 @@
-import React, {useEffect, useState} from 'react';
-import dice from "./dice.svg"
+/// <reference types="react-scripts" />
+
+import React from 'react';
+import dice from "./dice.svg";
 import './App.css';
-import {QueryClient, QueryClientProvider, useQuery, useQueryClient} from "react-query";
+import {QueryClient, QueryClientProvider, useQuery} from "react-query";
 
 
 function Card({title, text, onRefresh}: {
