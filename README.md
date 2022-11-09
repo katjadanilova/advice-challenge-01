@@ -18,8 +18,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/katjadanilova/advice-challenge-01](https://github.com/katjadanilova/advice-challenge-01)
+- Live Site URL: [https://advice-challenge-01.vercel.app/](https://advice-challenge-01.vercel.app/)
 
 ## My process
 
