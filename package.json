@@ -2,7 +2,7 @@
   "name": "advice-challenge-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/katjadanilova/advice-challenge-01",
+  "homepage": "https://katjadanilova.github.io/advice-challenge-01/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
