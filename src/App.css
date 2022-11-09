@@ -1,13 +1,79 @@
 
-.App {
-    min-height: 100vh;
+.app {
+    width: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2em;
+}
+
+.quote-card {
+    background-color: hsl(217, 19%, 24%);
+    width: 25em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    border-radius: 1em;
+    position: relative;
+}
+
+@media(max-width: 800px) {
+    .app {
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+    }
+    .quote-card {
+        width: auto;
+        margin: 1em;
+
+    }
+}
+
+.quote-title {
+    text-transform: uppercase;
+    color: #4ff1a3;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+}
+
+.quote {
+    line-height: 1.3em;
+    color: #cee2e8;
+    font-size: 28px;
+    text-align: center;
+}
+
+.divider {
+    margin-bottom: 2em;
+}
+
+.dice-container {
+    position: absolute;
+    bottom: -26px;
+    display: flex;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    transition: box-shadow 1s ease-in-out;
+}
+
+.dice-container:hover{
+    box-shadow:
+            0 0 20px 10px hsl(193, 38%, 86%);  /* inner white */ /* middle magenta */
 }
 
 .dice {
-    height: 4vmin;
+    height: 1.5em;
+    padding: 1em;
 }
+
+
+
+
+
 
